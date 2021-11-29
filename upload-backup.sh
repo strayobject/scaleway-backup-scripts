@@ -2,7 +2,7 @@
 
 # Based on https://www.scaleway.com/en/docs/tutorials/backup-dedicated-server-s3-duplicity/
 
-if [ $# -lt 2 ]; then
+if [ $# -lt 1 ]; then
   echo -e "Usage $0 <config_dir>
 Exemple:
 \t$ $0 /root";
